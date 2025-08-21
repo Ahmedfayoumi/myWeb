@@ -49,8 +49,8 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "hello@yourname.dev" },
-    { icon: Phone, label: "Phone", value: "+1 (555) 123-4567" },
+    { icon: Mail, label: "Email", value: "ahalfayoumi@gmail.com" },
+    { icon: Phone, label: "Phone", value: "+970 (56) 727-8697" },
     { icon: MapPin, label: "Location", value: "Available Worldwide" }
   ];
 
