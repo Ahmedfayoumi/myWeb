@@ -1,13 +1,13 @@
-import { Mail, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail, Github, Linkedin, Telegram } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: "#", label: "GitHub" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Mail, href: "mailto:hello@yourname.dev", label: "Email" }
+    { icon: Github, href: "https://github.com/Ahmedfayoumi", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/ahmed-elfayomi/", label: "LinkedIn" },
+    { icon: Telegram, href: "https://t.me/ahmed_alfayoumi", label: "Telegram" },
+    { icon: Mail, href: "ahalfayoumi@gmail.com", label: "Email" }
   ];
 
   return (
@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
           <div>
-            <h3 className="text-2xl font-bold mb-2">Your Name</h3>
+            <h3 className="text-2xl font-bold mb-2">Ahmed Elfayoumi</h3>
             <p className="text-background/80">
               Software Developer & Digital Solutions Expert
             </p>
@@ -30,7 +30,7 @@ const Footer = () => {
               className="inline-flex items-center space-x-2 text-primary-glow hover:text-primary transition-colors"
             >
               <Mail size={18} />
-              <span>hello@yourname.dev</span>
+              <span>ahalfayoumi@gmail.com</span>
             </a>
           </div>
           
@@ -50,7 +50,7 @@ const Footer = () => {
         
         <div className="border-t border-background/20 mt-8 pt-8 text-center">
           <p className="text-background/60">
-            © {currentYear} Your Name. All rights reserved. Built with ❤️ using React & TypeScript.
+            © {currentYear} Ahmed Elfayoumi. All rights reserved.
           </p>
         </div>
       </div>
